@@ -1,0 +1,35 @@
+
+.progress-bar > .bar {
+    //-fx-background-insets: 1 1 2 1;
+    //-fx-padding: 0.20em;
+    -fx-padding : 2px;
+    -fx-background-insets : 0;
+}
+
+.slider .track {
+    -fx-opacity : 0.25;
+    -fx-background-color : null; 
+    -fx-background-insets : 1 0 -1 0, 0, 1;
+    -fx-background-radius : 2.5, 2.5, 1.5;
+    -fx-padding : 0.208333em; /* 2.5 */
+}
+
+
+.tranparentClass {
+    -fx-background-color: transparent;
+}
+
+/*
+ .slider .track {
+    -fx-background-color: red;  
+    -fx-background-insets: 1 0 -1 0, 0, 1;
+    -fx-background-radius: 2.5, 2.5, 1.5;
+    -fx-padding: 0.20em;
+}
+*/
+
+
+.slider .thumb {
+    // -fx-background-image :url("/images/slider-silver.jpg");   
+    // -fx-padding: 15;
+}
